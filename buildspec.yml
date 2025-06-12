@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - aws --version
-      - ACCOUNT_ID=156041402660
+      - ACCOUNT_ID=026090546401
       - REGION=us-east-1
       - REPO_NAME=python
       - IMAGE_TAG=latest
