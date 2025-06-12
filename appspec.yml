@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:715841367723:task-definition/project6-task:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:026090546401:task-definition/python:2"
         LoadBalancerInfo:
           ContainerName: "python-app"
           ContainerPort: 5000
